@@ -53,7 +53,7 @@ export default function Home() {
                   <h2>Bio +</h2>
                 </AccordionTrigger>
                 <AccordionContent>
-                  <div className="lg:grid lg:grid-cols-2 lg:gap-8">
+                  <div className="lg:grid lg:grid-cols-2 lg:gap-8 text-ellipsis">
                     <div>
                       <p>
                         I have over 20 years of experience in web and web app

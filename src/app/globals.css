@@ -82,4 +82,7 @@
   a {
     @apply cursor-pointer block;
   }
+  p {
+    @apply mb-3;
+  }
 }
