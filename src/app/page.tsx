@@ -38,6 +38,50 @@ export default function Home() {
               </ul>
             </div>
           </section>
+          <section className="text-left mt-18">
+            <h2>Bio +</h2>
+            <p>
+              I have over 20 years of experience in web and web app development,
+              specializing in transforming abstract ideas into innovative
+              solutions. I aim to create engaging, user-friendly applications
+              and online experiences that solve real-world problems.
+            </p>
+            <p>
+              My technical and software design skills were honed through a
+              combination of computer science and engineering programs at Purdue
+              University and a Bachelor of Science degree from MIT, which I
+              began pursuing at the young age of 11.
+            </p>
+            <p>
+              I further developed my expertise by working as a Tech Lead at
+              various advertising agencies in Los Angeles, where I created
+              numerous online user experiences for high-profile clients such as
+              Disney, ESPN, Honda, Turbotax, Dole, Nestlé, Lenovo laptops,
+              Qantas, Suzuki, Wachovia, and Wells Fargo.
+            </p>
+            <p>
+              I am the owner of Monkey Kode, a web development agency
+              specializing in E-commerce, Headless sites, Custom CMSs, and
+              complex API integrations. My team and I strive to deliver
+              innovative solutions that exceed clients' expectations.I have over
+              20 years of experience in web and web app development,
+              specializing in transforming abstract ideas into innovative
+              solutions. I aim to create engaging, user-friendly applications
+              and online experiences that solve real-world problems. My
+              technical and software design skills were honed through a
+              combination of computer science and engineering programs at Purdue
+              University and a Bachelor of Science degree from MIT, which I
+              began pursuing at the young age of 11. I further developed my
+              expertise by working as a Tech Lead at various advertising
+              agencies in Los Angeles, where I created numerous online user
+              experiences for high-profile clients such as Disney, ESPN, Honda,
+              Turbotax, Dole, Nestlé, Lenovo laptops, Qantas, Suzuki, Wachovia,
+              and Wells Fargo. I am the owner of Monkey Kode, a web development
+              agency specializing in E-commerce, Headless sites, Custom CMSs,
+              and complex API integrations. My team and I strive to deliver
+              innovative solutions that exceed clients' expectations.
+            </p>
+          </section>
         </div>
       </main>
     </>
