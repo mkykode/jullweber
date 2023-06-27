@@ -1,7 +1,7 @@
 import Link from 'next/link';
 function Footer() {
   return (
-    <footer className="z-50 relative text-center">
+    <footer className="mt-0 z-50 relative text-center">
       <ul className="grid grid-cols-2 lg:grid-cols-4 gap-3 font-sm">
         <li className="pr-4 block">
           <Link href="mailto:jull@monkeykodeagency.com">email me </Link>

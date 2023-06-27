@@ -7,11 +7,12 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
+import AnimatedAvatar from '@/components/AnimatedAvatar';
 
 export default function Home() {
   return (
     <>
-      <main className="bg-[rgba(0,0,0,.25)] h-auto text-sm lg:text-base rounded-xl lg:min-w-[80%] m-0 p-0 font-light lg:tracking-wide flex justify-center flex-col items-center lg:p-24 lg:m-24">
+      <main className="my-8 mx-2 p-3 bg-[rgba(0,0,0,.25)] h-auto text-sm lg:text-base rounded-xl lg:min-w-[80%] font-light lg:tracking-wide flex justify-center flex-col items-center lg:p-24 lg:mt-24">
         <div className="z-50 relative">
           <Logo />
         </div>
@@ -22,7 +23,7 @@ export default function Home() {
             </h1>
           </Link>
           <h2 className="text-2xl font-light">Jull Weber</h2>
-          <section className="pt-24">
+          <section className="pt-4 lg:pt-12 max-w-[445px] mx-auto">
             <div className="text-left relative -translate-x-4 transform lg:translate-x-0">
               <h4 className="text-center pl-4 font-extralight uppercase tracking-widest text-sm absolute top-1/2 transform -rotate-90">
                 Talks
@@ -46,15 +47,15 @@ export default function Home() {
               </ul>
             </div>
           </section>
-          <section className="text-left mt-18">
+          <section className="text-left pt-2 mt-18 mx-4 max-w-full">
             <Accordion type="single" collapsible>
               <AccordionItem value="item-1">
                 <AccordionTrigger>
                   <h2>Bio +</h2>
                 </AccordionTrigger>
                 <AccordionContent>
-                  <div className="lg:grid lg:grid-cols-2 lg:gap-8 text-ellipsis">
-                    <div>
+                  <div className="flex flex-wrap">
+                    <div className="w-full lg:w-1/2 order-2 lg:order-1">
                       <p>
                         I have over 20 years of experience in web and web app
                         development, specializing in transforming abstract ideas
@@ -103,29 +104,20 @@ export default function Home() {
                         solutions that exceed clients&apos; expectations.
                       </p>
                     </div>
-                    <div
-                      style={
-                        {
-                          //   position: 'relative',
-                          //   width: '100%',
-                          //   height: '100%',
-                          //   minHeight: '572px',
-                        }
-                      }
-                    >
+                    <div className="w-full lg:w-1/2 order-1 lg:order-2 my-4">
                       <Image
                         src={'/Jull-B2.png'}
                         alt="Jull Weber"
                         width={512}
                         height={572}
                       />
+                      {/* <AnimatedAvatar /> */}
                     </div>
                   </div>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
           </section>
-          <section></section>
         </div>
       </main>
     </>

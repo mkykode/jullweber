@@ -27,3 +27,4 @@ function Avatar() {
     </svg>
   );
 }
+export default Avatar;
