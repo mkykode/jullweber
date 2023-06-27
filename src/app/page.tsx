@@ -1,15 +1,16 @@
 import Logo from '../components/Logo';
 import Link from 'next/link';
-import Image from 'next/image';
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
-import AnimatedAvatar from '@/components/AnimatedAvatar';
+import Avatar from '@/components/avatar';
 
 export default function Home() {
+  const clipPath =
+    'polygon(50% 0, 31% 9%, 0% 52%, 11% 84%, 18% 100%, 72% 94%, 87% 74%, 81% 56%, 66% 1%)';
   return (
     <>
       <main className="my-8 mx-2 p-3 bg-[rgba(0,0,0,.25)] h-auto text-sm lg:text-base rounded-xl lg:min-w-[80%] font-light lg:tracking-wide flex justify-center flex-col items-center lg:p-24 lg:mt-24">
@@ -105,13 +106,14 @@ export default function Home() {
                       </p>
                     </div>
                     <div className="w-full lg:w-1/2 order-1 lg:order-2 my-4">
-                      <Image
-                        src={'/Jull-B2.png'}
-                        alt="Jull Weber"
-                        width={512}
-                        height={572}
-                      />
-                      {/* <AnimatedAvatar /> */}
+                      <div
+                        className=""
+                        style={{
+                          clipPath,
+                        }}
+                      >
+                        <Avatar />
+                      </div>
                     </div>
                   </div>
                 </AccordionContent>
